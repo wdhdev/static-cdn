@@ -1,7 +1,7 @@
-fetch("https://api.lanyard.rest/v1/users/853158265466257448")
+fetch("https://api.wdh.gg/lanyard/853158265466257448")
     .then((res) => res.json())
     .then((res) => {
-        switch (res.data.discord_status) {
+        switch (res.user.status) {
             case "online":
                 document.getElementById("pfp").style.border = "4px solid #46A55F";
                 break;
