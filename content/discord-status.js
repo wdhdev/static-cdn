@@ -1,4 +1,4 @@
-fetch("https://api.wdh.gg/lanyard?id=853158265466257448")
+fetch("https://api.wdh.gg/lanyard/853158265466257448")
     .then((res) => res.json())
     .then((res) => {
         switch (res.user.status) {
