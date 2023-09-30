@@ -1,8 +1,6 @@
 # 🗄️ Static CDN
 A statically hosted content delivery network.
 
-Looking for our [Dynamic CDN](https://cdn.wdh.gg)?
-
 ## 🗃️ File Structure
 All CDN content is stored and published from the [`content/`](https://github.com/wdhdev/static-cdn/tree/main/content) folder.
 
