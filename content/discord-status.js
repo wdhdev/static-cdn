@@ -1,4 +1,4 @@
-fetch("https://lanyard-api.wdh.gg/v1/users/853158265466257448")
+fetch("https://api.lanyard.rest/v1/users/853158265466257448")
     .then((res) => res.json()).then((res) => {
         switch (res.data.discord_status) {
             case "online":
